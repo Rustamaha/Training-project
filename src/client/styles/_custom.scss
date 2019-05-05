@@ -1,0 +1,101 @@
+body {
+  font-family: 'Pacifico', cursive;
+}
+
+.header {
+  width: 100%;
+  font-family: 'Pacifico', cursive;
+  font-size: 15px;
+}
+
+.footer {
+  font-family: 'Pacifico', cursive;
+  font-size: 15px;
+  color: #fff;
+}
+
+.fas, .fab {
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+  color: #000;
+  &:hover {
+    color: blue;
+  }
+}
+
+.topbar {
+  background-color: #adb5bd;
+  color: #fff;
+  .row {
+    .welcome {
+      margin-top: 10px;
+    }
+    .sosmed-icon {
+      margin: 10px 0 0 auto;
+      a {
+        margin-left: 8px;
+        padding-bottom: 8px;
+      }
+    }
+  }
+}
+
+.navbar-main {
+  margin: 0 0;
+  width: 100%;
+  border-radius: 0;
+  border: 0;
+  ul, li {
+    font-size: 18px;
+    margin-left: auto;
+  }
+}
+
+.catalog {
+  font-family: 'Pacifico', cursive;
+  background-color: #f8f9fa;
+  .options {
+    background-color: #dee2e6;
+  }
+  .custom-control {
+    margin: 5px 0 5px 5px;
+    .custom-control-input {
+      margin-top: 5px;
+    }
+  }
+}
+
+.about {
+  font-family: 'Pacifico', cursive;
+  a {
+    margin-left: 10px;
+  }
+}
+
+$sizes: (
+  "160px": 160px,
+  "350px": 350px,
+);
+
+$body-bg: #adb5bd;
+
+$custom-control-indicator-checked-bg: #ced4da;
+$custom-control-indicator-checked-color: #000;
+$custom-checkbox-indicator-border-radius: .3rem;
+
+$navbar-light-color: white;
+$navbar-light-hover-color: #adb5bd;
+$navbar-light-active-color: #6c757d;
+$navbar-light-brand-color: white;
+$navbar-light-brand-hover-color: #adb5bd;
+
+$pagination-color: #343a40;
+$pagination-border-color: #6c757d;
+$pagination-hover-color: #000;
+
+$input-btn-focus-box-shadow: #fff;
+
+$custom-select-focus-border-color: #6c757d;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
