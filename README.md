@@ -1,6 +1,6 @@
 Training project with React, Bootstrap and Express.
 ---
-Here you can sort and filter some data.
+Here you can sort, filter some data and also paginate this data. You can search by id number to find exact product.
 
 At first install dependencies ***npm install***.
 
